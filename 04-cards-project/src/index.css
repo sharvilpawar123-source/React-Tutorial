@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.card .top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(25, 24, 24, 0.518);
+}
+
+.top button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 2px;
+  color: rgba(128, 128, 128, 0.751);
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+
+
+.center h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.center h3 span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.center h2 {
+  font-size: 22px;
+}
+
+.center .section {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.center .section h4 {
+  border: 1px solid #b1b1b1;
+  padding: 4px 6px;
+  border-radius: 5px;
+  background-color: #52515124;
+  color: black;
+  font-size: 16px;
+  border: none;
+}
+
+
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding: 11px;
+}
+
+.bottom button {
+  background-color: black;
+  color: #fff;
+  padding: 3px 6px;
+  border: none;
+  border-radius: 5px;
+}
+
+.bottom h3 {
+  font-size: 19px;
+}
+
+.bottom p {
+  color: #8b8b8b;
+  font-size: 14px;
+
+}
